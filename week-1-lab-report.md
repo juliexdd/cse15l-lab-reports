@@ -1,4 +1,4 @@
-### Week 1 Lab Report
+#### Week 1 Lab Report - Julie Nguyen
 # How to Log into a Course-Specific Account on ieng6
 
 ## Installing VScode
