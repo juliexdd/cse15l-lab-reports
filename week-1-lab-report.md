@@ -26,15 +26,12 @@
 
 1. If you type "ls -lat" without the quotation marks in the terminal, it will create a list of files sorted by modification time from the connected remote computer.
 > ls -lat
-
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1064693444343255090/Screen_Shot_2023-01-16_at_3.51.30_PM.png)
 2. If you type "ls -a" without the quotation marks in the terminal, it will create a list of all the files not in a long list format from the connected remote computer.
 > ls -a
-
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1064694976837074984/Screen_Shot_2023-01-16_at_3.57.36_PM.png)
 3. If you use the "cd" command, it will allow you to change the directory, hence the long name "change directory".
 4. If you type "cat /home/linux/ieng6/cs15lwi23/public/hello.txt", it will open up and read the file named hello.txt.
 > cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1064699559999176814/Screen_Shot_2023-01-16_at_4.15.48_PM.png)
 5. There are many more commands, but these are some of the basic useful ones for now!
