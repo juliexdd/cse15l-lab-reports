@@ -3,7 +3,7 @@
 
 ## Part 1 - Web Server
 
-1. Web Server Script for `StringServer.java`.
+1. Web Server Script for `StringServer.java`. Also, I used the code from `Server.java`.
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794471132266526/Screen_Shot_2023-01-30_at_5.41.13_PM.png)
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794572693164072/Screen_Shot_2023-01-30_at_5.41.37_PM.png)
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794656835092520/Screen_Shot_2023-01-30_at_5.41.57_PM.png)
