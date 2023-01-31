@@ -50,7 +50,7 @@ static double averageWithoutLowest(double[] arr) {
       if(num != lowest) { sum += num; }
     }
     return sum / (arr.length - 1);
-  }
+}
 ```
 7. The bug after the code change fix. The fix addresses the issue because the `counter` variable prevents duplicate lowest numbers from being removed from the array, and it ensures that only one lowest number is removed when doing the calculation.
 ```
@@ -74,7 +74,7 @@ static double averageWithoutLowest(double[] arr) {
       }
     }
     return (double)(sum / (arr.length - 1));
-  }
+}
 ```
 
 ## Part 3 - Something You Learned From Lab In Week 2 or Week 3
