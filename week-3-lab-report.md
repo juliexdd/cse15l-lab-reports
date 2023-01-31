@@ -78,4 +78,4 @@ static double averageWithoutLowest(double[] arr) {
 ```
 
 ## Part 3 - Something You Learned From Lab In Week 2 or Week 3
-1. I learned how to create a web server. This was interesting to make because I never thought that a server would be easy to make! Visiting other people's servers was fascinating to think about the logic behind it, and how we were able to modify or add to each other's servers.
+1. Something I learned from lab was how to create a web server. This was interesting to make because I never thought that a server would be easy to make! Visiting other people's servers was fascinating to think about the logic behind it, and how we were able to modify or add to each other's servers.
