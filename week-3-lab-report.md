@@ -24,11 +24,13 @@
 1. The bug I chose from Lab 3 is the `averageWithoutLowest`.
 2. A failure-inducing input was `{ 3, 3, 3, 3}`. The expected output should be 3.0, but the actual output ended up being 0.0, which is wrong.
 ```
+@Test
 double[] input1 = { 3,3,3,3 };
 assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
 ```
 3. An input that does not induce a failure is `{ 2, 3, 4, 5 }`. The expected output is 4.0, and the actual output is 4.0, which is correct.
 ```
+@Test
 double[] input1 = { 2,3,4,5 };
 assertEquals(4.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
 ```
@@ -37,7 +39,7 @@ assertEquals(4.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069832468024271020/Screen_Shot_2023-01-30_at_8.12.12_PM.png)
 - This is an input that does not induce a failure.
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069838930125537350/Screen_Shot_2023-01-30_at_8.37.50_PM.png)
-5. The bug before the code change fix.
+5. The bug before the code change fix. What was wrong with the code before was that it would declare a number as the lowest, but this meant that every duplicate number that is also considered the lowest will be deregarded. For example, if the lowest number is 3 in `{3, 3, 3, 3, 4}`, it will deregard all of the 3's instead of only one of the 3's in the calculation.
 ```
 static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
