@@ -6,7 +6,7 @@
 1. Web Server Script for `StringServer.java`. Also, I used the code from `Server.java`.
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794471132266526/Screen_Shot_2023-01-30_at_5.41.13_PM.png)
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794572693164072/Screen_Shot_2023-01-30_at_5.41.37_PM.png)
-![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794656835092520/Screen_Shot_2023-01-30_at_5.41.57_PM.png)
+![Image](https://cdn.discordapp.com/attachments/793015871979257896/1074599414687084566/Screen_Shot_2023-02-12_at_11.54.19_PM.png)
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794750938492968/Screen_Shot_2023-01-30_at_5.42.19_PM.png)
 2. First screenshot of using `/add-message` with the text `Julie Nguyen`.
 ![Image](https://cdn.discordapp.com/attachments/793015871979257896/1069794085059174451/Screen_Shot_2023-01-30_at_5.39.41_PM.png)
