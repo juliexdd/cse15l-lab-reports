@@ -594,4 +594,4 @@ $ find -iname ALGARVe-HiStoRY.txT
 ```
 - Here, the file `Algarve-History.txt` in `./written_2` is displayed/found because the command is not case sensitive.
 ---
-### All of command-line options/alternative ways to use `find` were found through the terminal's manual in the command `man find`.
+- All of command-line options/alternative ways to use `find` were found through the terminal's manual in the command `man find`.
