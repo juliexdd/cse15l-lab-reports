@@ -4,8 +4,8 @@
 ## Researching Commands - `find` Command
 
 ## Finding 4 Interesting Command-Line Options/Alternative Ways To Use `find`
----
-1. `find -type`
+
+### 1. `find -type`
 - `-type` refers to finding a specific type of file rather than simply listing out all of the files within the directory.
 - There are multiple options to using the `-type` command like `find -type f` to find all files, and `find -type d` to list out directories instead.
 - This is useful because it helps sort files by their type(s)!
@@ -263,8 +263,8 @@ $ find -type d
 ./travel_guides/berlitz2
 ```
 - Here, the output displays all directories in `./written_2`, and it does not display any `.txt` files within these directories.
----
-2. `find -size`
+
+### 2. `find -size`
 - `-size` refers to finding files that falls under or over certain sizes like `c` for bytes, `k` kilobytes, `M` for megabytes, `G` for gigabytes, etc.
 - Adding a `+` or `-` sign in front of the letter determines if it finds files greater than or less than the specified size.
 - This is useful because it helps find files' sizes if they fall under or over a size limit!
@@ -307,8 +307,8 @@ $ find -size -1000c
 ./travel_guides/berlitz1/HandRIstanbul.txt
 ```
 - Here, the output displays all files in `./written_2` than are less than 1000 bytes.
----
-3. `find -mtime`
+
+### 3. `find -mtime`
 - `-mtime` refers to finding files that falls under or over a specific amount of days since its modified time like `-mtime -7` finds files modified less than 7 days ago. `-mtime +9` finds files modified over 9 days ago.
 - Adding a `+` or `-` sign in front of the `-mtime` determines if it finds files greates than or less than the specified amount of days.
 - Adding a `-ls` after the command will show the time and date modified as well!
@@ -568,8 +568,8 @@ $ find -mtime +9 -ls
 
 ```
 - Here, no files in `./written_2` are displayed because none of these files were modified over 9 days ago.
----
-4. `find -iname`
+
+### 4. `find -iname`
 - `-iname` finds a files that matches with the following pattern. It is similar to `-name`, but it is case insensitive.
 - For example, `CuBA-HiStOrY.tXt` will work with `-iname`, but it will not work with `-name`.
 - This is useful because it helps the user avoid the hassle of case sensitive names of files when locating them!
@@ -593,5 +593,7 @@ $ find -iname ALGARVe-HiStoRY.txT
 ./travel_guides/berlitz2/Algarve-History.txt
 ```
 - Here, the file `Algarve-History.txt` in `./written_2` is displayed/found because the command is not case sensitive.
----
-- All of command-line options/alternative ways to use `find` were found through the terminal's manual in the command `man find`.
+
+
+
+#### All of command-line options/alternative ways to use `find` were found through the terminal's manual in the command `man find`.
