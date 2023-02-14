@@ -565,7 +565,7 @@ $ find -mtime +9 -ls
 ```
 - Output
 ```
-
+nothing!
 ```
 - Here, no files in `./written_2` are displayed because none of these files were modified over 9 days ago.
 
