@@ -32,7 +32,7 @@ $ grep -c and Canada-WhereToGo.txt
 
 ### 2. `grep -v`
 - `-v` stands for invert-match, where it returns every other line other than the specified string pattern.
-- For example, you can have it return an entire chapter's text without the chapter's title in a `.txt` file for isntance.
+- For example, you can have it return an entire chapter's text without the chapter's title in a `.txt` file for instance.
 - This is useful because it allows you to read everything else other than the word/string pattern you do not want to see in the file.
 
 - `grep -v` Command Input - Example 1
